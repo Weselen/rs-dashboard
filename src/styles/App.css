@@ -1,0 +1,18 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+  gap: 16px; /* Adds space between sidebar and main area */
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f6edde;
+  margin-top: 20px;
+}

@@ -1,0 +1,9 @@
+/* Reset base styles */
+@import './styles/variables.css';
+@import 'leaflet/dist/leaflet.css';
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0e0c2;
+  color: #042836;
+}

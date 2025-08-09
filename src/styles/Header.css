@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5ecdd; /* Matches your theme */
+  padding: 16px 24px;
+  color: #042836;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 25px;
+  padding: 20px;
+  height: 80px;
+  margin-right: 12px;
+}
+
+.site-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+}

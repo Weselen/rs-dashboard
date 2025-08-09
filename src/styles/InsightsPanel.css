@@ -1,0 +1,47 @@
+.chart-placeholder {
+  margin-top: 12px;
+  height: 120px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+}
+
+.insights-panel section {
+  margin-bottom: 1rem;
+}
+
+.insights-panel ul {
+  padding-left: 1.5rem;
+  margin: 0.3rem 0;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tab-bar button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.tab-bar button:hover {
+  background-color: #ddd;
+}
+
+.tab-bar button.active {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.tab-content {
+  margin-top: 1rem;
+}
